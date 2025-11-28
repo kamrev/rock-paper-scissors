@@ -49,3 +49,11 @@ while True:
 
 print(f"""Robot's Score: {robotscore:.1f}
 Human's Score: {humanscore:.1f}""")
+
+if robotscore > humanscore:
+    print("Robot Wins!")
+elif humanscore > robotscore:
+    print("Human Wins!")
+else:
+    print("It's a tie!")
+
